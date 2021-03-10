@@ -224,6 +224,16 @@ success Using linked package for "target-lib".
 import { Button } from 'target-lib';
 ```
 
+【可选注意】如果使用[github pages部署](https://github.com/niexq/react-gh-pages)：
+
+```js
+// 重要：example目录的package.json需要增加homepage
+
+"homepage": "https://niexq.github.io/what-plugin-template",
+```
+缺少此步，访问 niexq.github.io/what-plugin-template 会提示static/***.chunk.css```404```
+
+
 ### 监听插件编码及预览
 返回项目根目录
 ```bash
