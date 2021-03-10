@@ -1,0 +1,56 @@
+{
+  "name": "what-plugin-template",
+  "version": "1.0.2",
+  "description": "a normal js plugin template",
+  "keywords": [
+    "js-plugin-template",
+    "react-plugin-template",
+    "lib-plugin-template",
+    "plugin-template"
+  ],
+  "main": "build/index.js",
+  "module": "build/index.esm.js",
+  "homepage": "https://niexq.github.io/what-plugin-template",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niexq/what-plugin-template"
+  },
+  "author": "niexq<niexq0319@gmail.com>(https://niexq.github.io)",
+  "license": "MIT",
+  "scripts": {
+    "start": "better-npm-run start",
+    "dev": "cd example && yarn install && yarn start",
+    "start-dev": "yarn run start & yarn run dev",
+    "predeploy": "cd example && yarn install && del build && yarn run build",
+    "deploy": "gh-pages -d example/build",
+    "build": "better-npm-run build"
+  },
+  "betterScripts": {
+    "start": {
+      "command": "rollup -c -w",
+      "env": {
+        "NODE_ENV": "develop"
+      }
+    },
+    "build": {
+      "command": "del build && rollup -c",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "better-npm-run": "^0.1.1",
+    "gh-pages": "^3.1.0",
+    "postcss": "^8.2.8",
+    "rollup": "^2.41.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
