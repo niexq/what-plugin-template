@@ -270,5 +270,6 @@ import { Button } from 'target-lib';
 ### 发布到npmjs
 前提已注册npmjs及验证过邮箱
 ```bash
+yarn run build
 yarn publish
 ```

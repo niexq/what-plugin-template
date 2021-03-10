@@ -36,7 +36,7 @@ cd .. && yarn run start-dev
 ## Install
 
 ```bash
-snpm install --save what-plugin-template
+npm install --save what-plugin-template
 ```
 
 or
