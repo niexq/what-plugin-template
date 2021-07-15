@@ -2,7 +2,7 @@
 
 > 一个普通的js插件模板（可用于组件库或方法库）
 
-简体中文 | [English](./README.md)
+简体中文 | [English](./README.en-US.md)
 
 ## 🚀 如何使用？
 
