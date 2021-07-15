@@ -1,6 +1,6 @@
 # 💫 what-plugin-template
 
-> a normal js plugin template（可用于组件库或方法库）
+> a normal js plugin template（Can be used in component library or function library）
 
 [ 简体中文 ](./README.md) | English
 
@@ -40,11 +40,11 @@ The rest of the documents can be consulted by yourself.
 
 | Name                    | Description           | Remarks                                                 |
 | ----------------------- | -------------- | ----------------------------------------------------------------- |
-| `npm run start`         | 项目启动       |          |
-| `npm run dev`           | demo启动  |              |
-| `npm run start-dev`     | 开发时启动      |                          |
-| `npm run deploy`        | 部署demo页面       | 使用 [GitHub Pages](https://github.com/niexq/react-gh-pages) |
-| `npm run build`         | 组件（或方法）打包  | 使用 [rollup](https://www.rollupjs.com/) 工具       |
+| `npm run start`         | Project begining       |          |
+| `npm run dev`           | demo begining  |              |
+| `npm run start-dev`     | Start at development      |                          |
+| `npm run deploy`        | Deploy the demo page     | Use [GitHub Pages](https://github.com/niexq/react-gh-pages) |
+| `npm run build`         | Component (or function) packaging  | Use [rollup](https://www.rollupjs.com/) 工具       |
 
 
 ## 🎫 License
