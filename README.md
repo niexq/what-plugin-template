@@ -45,7 +45,7 @@ https://niexq.github.io/what-plugin-template
 | `npm run dev`           | demo启动  |              |
 | `npm run start-dev`     | 开发时启动      |                          |
 | `npm run deploy`        | 部署demo页面       | 使用 [GitHub Pages](https://github.com/niexq/react-gh-pages) |
-| `npm run build`         | 组件（或方法）打包  | 使用 [rollup](https://www.rollupjs.com/) 工具       |
+| `npm run build`         | 组件（或方法）打包  | 使用 [rollup](https://www.rollupjs.com/)     |
 
 
 ## 🎫 License

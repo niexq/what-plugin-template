@@ -44,7 +44,7 @@ The rest of the documents can be consulted by yourself.
 | `npm run dev`           | demo begining  |              |
 | `npm run start-dev`     | Start at development      |                          |
 | `npm run deploy`        | Deploy the demo page     | Use [GitHub Pages](https://github.com/niexq/react-gh-pages) |
-| `npm run build`         | Component (or function) packaging  | Use [rollup](https://www.rollupjs.com/) 工具       |
+| `npm run build`         | Component (or function) packaging  | Use [rollup](https://www.rollupjs.com/)     |
 
 
 ## 🎫 License
