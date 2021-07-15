@@ -1,50 +1,53 @@
-# what-plugin-template
+# 💫 what-plugin-template
 
-> a normal js plugin template
+> 一个普通的js插件模板（可用于组件库或方法库）
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/niexq/what-plugin-template/blob/main/LICENSE) [![NPM](https://img.shields.io/npm/v/what-plugin-template.svg)](https://www.npmjs.com/package/what-plugin-template) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+简体中文 | [English](./README.md)
 
-## Use
-![](https://i.loli.net/2021/03/10/o9YDJumaL6HtOCT.gif)
+## 🚀 如何使用？
 
-[Clone me](https://github.com/niexq/what-plugin-template), to create a new js plugin!
+![](https://raw.githubusercontent.com/niexq/picbed/main/picgo/use2.gif)
 
-env
-```bash
-export MY_GITHUB_ORG=zhangsan
-export MY_PLUGIN_NAME=js-plugin-SOMETHING
+## ✨ 在线预览
+
+https://niexq.github.io/what-plugin-template
+
+## 📒 目录介绍
+
+```
+├── README.md             项目展示文档
+├── LICENSE               LICENSE
+├── build                 编译目录
+├── package.json          package.json
+├── .babelrc              babel配置文件
+├── rollup.config.js      rollup配置文件
+├── node_modules          三方插件
+├── example               demo
+├── docs                  文档存放路径
+├── public                静态资源
+│   ├── favicon.ico
+│   └── manifest.json
+└── src                    组件（或方法）主目录
+    ├── Button             组件（或方法）开发
+    │    ├── Button.css
+    │    ├── Button.jsx
+    │    └── index.jsx
+    └── index.js           组件（或方法）注册
 ```
 
+其余文件可自行查阅了解。
 
-```bash
-git clone git@github.com:niexq/what-plugin-template.git
+## 🤖 命令介绍
 
-mv what-plugin-template $MY_PLUGIN_NAME
+| 名称                    | 描述           | 备注                                                                 |
+| ----------------------- | -------------- | -------------------------------------------------------------------- |
+| `npm run start`         | 项目启动       |          |
+| `npm run dev`           | demo启动  |              |
+| `npm run start-dev`     | 开发时启动      |                          |
+| `npm run deploy`        | 部署demo页面       | 使用 [GitHub Pages](https://github.com/niexq/react-gh-pages) |
+| `npm run build`         | 组件（或方法）打包  | 使用 [rollup](https://www.rollupjs.com/) 工具       |
 
-cd $MY_PLUGIN_NAME
 
-git remote rm origin
+## 🎫 License
 
-git remote add origin "git@github.com:$MY_GITHUB_ORG/$MY_PLUGIN_NAME.git"
-
-yarn install && yarn link
-
-cd example && yarn install && yarn link $MY_PLUGIN_NAME
-
-cd .. && yarn run start-dev
-```
-
-## Install
-
-```bash
-npm install --save what-plugin-template
-```
-
-or
-
-```bash
-yarn add what-plugin-template
-```
-## License
-
-MIT
+[MIT licensed](./LICENSE)
